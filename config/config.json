@@ -1,0 +1,18 @@
+{
+  "domain": "ebaysso.com",
+  "soa_ip": "149.28.195.216",
+  "resolver_ip": "1.1.1.1",
+  "resolver_port": 53,
+  "listen_port": 53,
+  "start_qps": 10,
+  "step_qps": 50,
+  "max_qps": 1000,
+  "window_seconds": 5.0,
+  "grace_seconds": 1.0,
+  "min_success_rate": 0.95,
+  "consecutive_fail_windows": 3,
+  "min_name_len": 150,
+  "max_name_len": 200,
+  "max_runtime": 300.0,
+  "txt_value": "ok"
+}
