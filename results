@@ -1,0 +1,198 @@
+{
+  "config": {
+    "consecutive_fail_windows": 3,
+    "domain": "ebaysso.com",
+    "grace_seconds": 1.0,
+    "listen_port": 53,
+    "max_name_len": 200,
+    "max_qps": 1000,
+    "max_runtime": 300.0,
+    "min_name_len": 150,
+    "min_success_rate": 0.95,
+    "resolver_ip": "1.1.1.1",
+    "resolver_port": 53,
+    "soa_ip": "149.28.195.216",
+    "start_qps": 10,
+    "step_qps": 50,
+    "txt_value": "ok",
+    "window_seconds": 5.0
+  },
+  "summary": {
+    "elapsed_seconds": 102.023,
+    "last_good_qps": 660,
+    "server_queries_observed": 668,
+    "stopped_due_to_rate_limit": true
+  },
+  "windows": [
+    {
+      "qps": 10,
+      "rcode_counts": {
+        "0": 50
+      },
+      "responses": 50,
+      "sent": 50,
+      "success_rate": 1.0,
+      "window": 0
+    },
+    {
+      "qps": 60,
+      "rcode_counts": {
+        "0": 300
+      },
+      "responses": 300,
+      "sent": 300,
+      "success_rate": 1.0,
+      "window": 1
+    },
+    {
+      "qps": 110,
+      "rcode_counts": {
+        "0": 550
+      },
+      "responses": 550,
+      "sent": 550,
+      "success_rate": 1.0,
+      "window": 2
+    },
+    {
+      "qps": 160,
+      "rcode_counts": {
+        "0": 800
+      },
+      "responses": 800,
+      "sent": 800,
+      "success_rate": 1.0,
+      "window": 3
+    },
+    {
+      "qps": 210,
+      "rcode_counts": {
+        "0": 1050
+      },
+      "responses": 1050,
+      "sent": 1050,
+      "success_rate": 1.0,
+      "window": 4
+    },
+    {
+      "qps": 260,
+      "rcode_counts": {
+        "0": 1300
+      },
+      "responses": 1300,
+      "sent": 1300,
+      "success_rate": 1.0,
+      "window": 5
+    },
+    {
+      "qps": 310,
+      "rcode_counts": {
+        "0": 1550
+      },
+      "responses": 1550,
+      "sent": 1550,
+      "success_rate": 1.0,
+      "window": 6
+    },
+    {
+      "qps": 360,
+      "rcode_counts": {
+        "0": 1800
+      },
+      "responses": 1800,
+      "sent": 1800,
+      "success_rate": 1.0,
+      "window": 7
+    },
+    {
+      "qps": 410,
+      "rcode_counts": {
+        "0": 2050
+      },
+      "responses": 2050,
+      "sent": 2050,
+      "success_rate": 1.0,
+      "window": 8
+    },
+    {
+      "qps": 460,
+      "rcode_counts": {
+        "0": 2300
+      },
+      "responses": 2300,
+      "sent": 2300,
+      "success_rate": 1.0,
+      "window": 9
+    },
+    {
+      "qps": 510,
+      "rcode_counts": {
+        "0": 2550
+      },
+      "responses": 2550,
+      "sent": 2550,
+      "success_rate": 1.0,
+      "window": 10
+    },
+    {
+      "qps": 560,
+      "rcode_counts": {
+        "0": 2800
+      },
+      "responses": 2800,
+      "sent": 2800,
+      "success_rate": 1.0,
+      "window": 11
+    },
+    {
+      "qps": 610,
+      "rcode_counts": {
+        "0": 3050
+      },
+      "responses": 3050,
+      "sent": 3050,
+      "success_rate": 1.0,
+      "window": 12
+    },
+    {
+      "qps": 660,
+      "rcode_counts": {
+        "0": 3300
+      },
+      "responses": 3300,
+      "sent": 3300,
+      "success_rate": 1.0,
+      "window": 13
+    },
+    {
+      "qps": 710,
+      "rcode_counts": {
+        "0": 3150
+      },
+      "responses": 3150,
+      "sent": 3550,
+      "success_rate": 0.887324,
+      "window": 14
+    },
+    {
+      "qps": 760,
+      "rcode_counts": {
+        "0": 3001
+      },
+      "responses": 3001,
+      "sent": 3800,
+      "success_rate": 0.789737,
+      "window": 15
+    },
+    {
+      "qps": 810,
+      "rcode_counts": {
+        "0": 3000
+      },
+      "responses": 3000,
+      "sent": 4050,
+      "success_rate": 0.740741,
+      "window": 16
+    }
+  ]
+}
